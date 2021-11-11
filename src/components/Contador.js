@@ -6,11 +6,11 @@ export default function Contador(){
 
     return(
         <>
-            <h1>Contador xd</h1>
+            <h1>Contador</h1>
             <h2>Você clicou {num} vezes</h2>
 
             <button onClick={() => {setNum(num + 1)}}>Mais</button>
             <button onClick={() => {setNum(num - 1)}}>Menos</button>
         </>
     )
-}
+};
